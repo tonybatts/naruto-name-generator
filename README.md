@@ -1,0 +1,1 @@
+# naruto-name-generator
