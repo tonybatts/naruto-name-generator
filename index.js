@@ -294,9 +294,10 @@ const narutoNamesList = [{
   description: "Kawaki (カワキ, Kawaki) is a tattooed youth who became a member of Kara after being brought by Jigen from a drunkard father, bearing a tattoo of the Roman numeral IX under his left eye and bestowed a Kama mark by Jigen to be made into a living weapon for Kara. He was heavily modified with microscopic Shinobi-Ware implanted in his body that give him abilities similar to Jugo's Sage Transformation in altering his physiology at a cellular level. For reasons yet to be revealed, Kawaki left Kara and encountered Boruto who brings him to the Hidden Leaf as he lives with the Uzumaki family. The two would end up becoming enemies as hinted in prologue of the Boruto series, an older Kawaki appearing to have perpetrated Konoha's destruction as he confronts an older Boruto while declaring the age of shinobi has come to an end. His voice actor in the Japanese anime is Yūma Uchida."
 }]
 
-export const Random = () => {
-  const randomNum = Math.floor(Math.random() * (narutoNamesList.length - 0) + 1)
-  return narutoNamesList[randomNum]
+export const naruto = {
+  random() {
+    const randomNum = Math.floor(Math.random() * (narutoNamesList.length - 0) + 1)
+    return narutoNamesList[randomNum]
+  },
+  all: narutoNamesList
 }
-
-export const List = () => narutoNamesList
