@@ -1,16 +1,26 @@
 # naruto-name-generator
-Generate a Random object that Includes the name and a description of your favorite shows characters or receive an array off all characters and their descriptions. 
+Generate a random object that includes the name and a description of your favorite shows characters or receive an array of all characters and their descriptions. 
 
 ## Install
 ```$ npm install naruto-name-generator```
 
 ## Usage
 ```
-import { Random, List } from "naruto-name-generator"
+import { naruto } from "naruto-name-generator"
 
-Random()
+naruto.random()
 //=> {name: "Sasuke Uchiha", description: "..."}
 
-List()
+naruto.all
 //=> [{...}, {...}, {...}]
 ```
+## API
+### .random()
+Type: ```Function```
+
+Random Naruto character name and description.
+
+### .all
+Type: ```string[]```
+
+List of all Naruto names and their descriptions.
