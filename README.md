@@ -3,6 +3,7 @@ Generate a random object that includes the name and a description of your favori
 
 ## Install
 ```$ npm install naruto-name-generator```
+<img align="right" src="https://github.com/tonybatts/naruto-name-generator/blob/main/images/%20naruto-standing.png">
 
 ## Usage
 ```js
