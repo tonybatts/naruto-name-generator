@@ -1,11 +1,15 @@
 {
   "name": "naruto-name-generator",
-  "version": "1.0.120",
+  "version": "1.0.17",
   "description": "Generate Naruto names",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Tony Batts",
-  "license": "ISC"
+  "license": "MIT",
+  "keywords": [
+    "naruto",
+    "anime"
+  ]
 }
