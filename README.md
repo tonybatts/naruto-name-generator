@@ -1,6 +1,6 @@
 # naruto-name-generator
 Generate a random object that includes the name and a description of your favorite shows characters or receive an array of all characters and their descriptions. 
-Click on the GIF in [this page](https://www.jenreyes.design/about) for a live demo.
+Click the GIF on [this page](https://www.jenreyes.design/about) for a live demo.
 
 ## Install
 ```$ npm install naruto-name-generator```
